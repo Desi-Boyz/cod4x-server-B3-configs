@@ -1,0 +1,69 @@
+170523 07:19:04 BOT      'www.bigbrotherbot.net (b3) v1.10.10 [AngryBiscuit]'
+170523 07:19:04 BOT      'Python: 2.7.12 (default, Nov 19 2016, 06:48:10) [GCC 5.4.0 20160609]'
+170523 07:19:04 BOT      'Default encoding: ascii'
+170523 07:19:04 BOT      'Starting Cod4Parser v1.5.1 for server 127.0.0.1:28960 (autorestart = ON)'
+170523 07:19:04 BOT      '--------------------------------------------'
+170523 07:19:04 BOT      'Connecting to MySQL database: mysql://b3:******@localhost:3306/DB_b3...'
+170523 07:19:04 ERROR    'Database connection failed: working in remote mode: (1045, u"Access denied for user \'b3\'@\'localhost\' (using password: NO)") - [(\'/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/storage/mysql.py\', 287, \'connect\', \'charset="utf8")\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/__init__.py\', 90, \'Connect\', \'return Connection(*args, **kwargs)\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 706, \'__init__\', \'self.connect()\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 932, \'connect\', \'self._request_authentication()\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 1152, \'_request_authentication\', \'auth_packet = self._read_packet()\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 1014, \'_read_packet\', \'packet.check_error()\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 393, \'check_error\', \'err.raise_mysql_exception(self._data)\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/err.py\', 107, \'raise_mysql_exception\', \'raise errorclass(errno, errval)\')]'
+170523 07:19:04 BOT      'Game log is: /home/vijayant_saini123/.callofduty4/main/games_mp.log'
+170523 07:19:04 BOT      u'Starting bot reading file: /home/vijayant_saini123/.callofduty4/main/games_mp.log'
+170523 07:19:04 BOT      'Rcon status cache expire time: [2 sec] Type: [False]'
+170523 07:19:04 BOT      'Game name is: cod4'
+170523 07:19:04 VERBOSE  "RCON sending (127.0.0.1:28960) 'status'"
+170523 07:19:05 BOT      u'Loading plugins (external plugin directory: /usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/extplugins)'
+170523 07:19:05 WARNING  u'Could not find specified configuration file /home/vijayant_saini123/cod4/cod4x-server-B3-configs/plugin_spamcontrol.xml for plugin spamcontrol'
+170523 07:19:05 ERROR    'Could not load plugin spamcontrol'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 861, in loadPlugins
+    cfg = _get_plugin_config(p['name'], clz, p['conf'])
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 838, in _get_plugin_config
+    raise b3.config.ConfigFileNotFound('plugin %s cannot be loaded without a configuration file' % p_name)
+ConfigFileNotFound: 'plugin spamcontrol cannot be loaded without a configuration file'
+170523 07:19:05 WARNING  u'Could not find specified configuration file /home/vijayant_saini123/cod4/cod4x-server-B3-configs/plugin_admin.xml for plugin admin'
+170523 07:19:05 ERROR    'Could not load plugin admin'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 861, in loadPlugins
+    cfg = _get_plugin_config(p['name'], clz, p['conf'])
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 838, in _get_plugin_config
+    raise b3.config.ConfigFileNotFound('plugin %s cannot be loaded without a configuration file' % p_name)
+ConfigFileNotFound: 'plugin admin cannot be loaded without a configuration file'
+170523 07:19:05 WARNING  u'Could not find specified configuration file /home/vijayant_saini123/cod4/cod4x-server-B3-configs/plugin_pingwatch.xml for plugin pingwatch'
+170523 07:19:05 ERROR    'Could not load plugin pingwatch'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 861, in loadPlugins
+    cfg = _get_plugin_config(p['name'], clz, p['conf'])
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 838, in _get_plugin_config
+    raise b3.config.ConfigFileNotFound('plugin %s cannot be loaded without a configuration file' % p_name)
+ConfigFileNotFound: 'plugin pingwatch cannot be loaded without a configuration file'
+170523 07:19:05 WARNING  u'Could not find specified configuration file /home/vijayant_saini123/cod4/cod4x-server-B3-configs/plugin_adv.xml for plugin adv'
+170523 07:19:05 ERROR    'Could not load plugin adv'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 861, in loadPlugins
+    cfg = _get_plugin_config(p['name'], clz, p['conf'])
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 838, in _get_plugin_config
+    raise b3.config.ConfigFileNotFound('plugin %s cannot be loaded without a configuration file' % p_name)
+ConfigFileNotFound: 'plugin adv cannot be loaded without a configuration file'
+170523 07:19:05 WARNING  u'Could not find specified configuration file /home/vijayant_saini123/cod4/cod4x-server-B3-configs/plugin_welcome.xml for plugin welcome'
+170523 07:19:05 ERROR    'Could not load plugin welcome'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 861, in loadPlugins
+    cfg = _get_plugin_config(p['name'], clz, p['conf'])
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 838, in _get_plugin_config
+    raise b3.config.ConfigFileNotFound('plugin %s cannot be loaded without a configuration file' % p_name)
+ConfigFileNotFound: 'plugin welcome cannot be loaded without a configuration file'
+170523 07:19:05 VERBOSE  'Turbohost is not a built-in plugin (No module named turbohost)'
+170523 07:19:05 VERBOSE  u'Trying external plugin directory : /usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/extplugins'
+170523 07:19:05 ERROR    'Could not load plugin turbohost'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 859, in loadPlugins
+    mod = self.pluginImport(p['name'], p['path'])
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 1076, in pluginImport
+    fp, pathname, description = imp.find_module(name, [self.config.get_external_plugins_dir()])
+ImportError: No module named turbohost
+170523 07:19:05 CRITICAL 'Plugin admin is essential and MUST be loaded! Cannot continue without admin plugin'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 859, in loadPlugins
+    mod = self.pluginImport(p['name'], p['path'])
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 1076, in pluginImport
+    fp, pathname, description = imp.find_module(name, [self.config.get_external_plugins_dir()])
+ImportError: No module named turbohost

@@ -1,0 +1,995 @@
+    1  git clone https://github.com/vijayant123/dl-web.git
+    2  cd dl-web/
+    3  npm install
+    4  sudo cp /usr/bin/nodejs /usr/bin/node
+    5  npm install
+    6  ionic
+    7  npm install -g cordova ionic
+    8  sudo npm install -g cordova ionic
+    9  cd ..
+   10  curl
+   11  sudo apt-get purge nodejs npm
+   12  curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+   13  sudo cp /usr/bin/nodejs /usr/bin/node
+   14  cd /etc/
+   15  sudo rm -r nginx/
+   16  ls
+   17  cd nginx/
+   18  ls
+   19  ls -al
+   20  sudo rm -rf * 
+   21  sudo apt install htop
+   22  htop
+   23  npm install forever -g
+   24  sudo npm install forever -g
+   25  cd dl-web/
+   26  npm intall
+   27  npm install
+   28  sudo npm install -g cordova ionic
+   29  ionic serve
+   30  cd .. cd..
+   31  cd ..
+   32  ls -al
+   33  sudo apt install unzip
+   34  unzip www.zip 
+   35  sudo apt install nginx
+   36  ls
+   37  unzip nginx.zip 
+   38  mv nginx/* /etc/nginx/
+   39  sudo service nginx restart
+   40  sudo apt-get install apache2-utils
+   41  cd /etc/nginx/
+   42  ls
+   43  cd sites-enabled/
+   44  ls
+   45  vim default 
+   46  cd -
+   47  cd ~
+   48  ls
+   49  zip ngin.zip 
+   50  unzip ngin.zip 
+   51  mv ngin /etc/nginx/
+   52  mv ngin/ /etc/nginx/
+   53  ls -al
+   54  mv nginx /etc/nginx/
+   55  sudo mv nginx /etc/nginx/
+   56  sudo service nginx restar
+   57  unzip ngin.zip 
+   58  ls -al
+   59  mkdir n
+   60  mv ngin.zip n
+   61  cd n
+   62  ls
+   63  unzip ngin.zip 
+   64  ls
+   65  rm ngin
+   66  rm ngin.zip 
+   67  sudo mv * /etc/nginx/
+   68  sudo mv * /etc/nginx/ -r
+   69  sudo mv * /etc/nginx
+   70  sudo mkdir /etc/nginx
+   71  sudo mv * /etc/nginx
+   72  sudo service nginx restart 
+   73  sudo service nginx status
+   74  cd /etc/nginx/
+   75  ls
+   76  ls -al
+   77  cd ~/n
+   78  ls
+   79  cd ..
+   80  ;s
+   81  ls
+   82  mv ngin.zip n
+   83  cd n
+   84  unzip ngin.zip 
+   85  ls
+   86  sudo mv * /etc/nginx/
+   87  sudo service nginx restart 
+   88  cd ..
+   89  ls -al
+   90  rm -I proxy_params 
+   91  ls 
+   92  ls -al
+   93  rm fastcgi.conf fastcgi_params .htpasswd koi-utf koi-win mime.types nginx.* uwsgi_params win-utf www.zip 
+   94  ls -al
+   95  rm -rf conf.d/ sites-* snippets/
+   96  ls -al
+   97  rm -rf n/ scgi_params 
+   98  ls -a
+   99  ls -al
+  100  wget -R http://104.155.205.78:88/.aria2
+  101  wget -R http://104.155.205.78:88/.aria2/
+  102  wget -r --no-parent http://104.155.205.78:88/.aria2/
+  103  ls -al
+  104  mv 104.155.205.78\:88/
+  105  mv 104.155.205.78\:88/ .
+  106  mv 104.155.205.78\:88/.aria2/ .
+  107  ls -al
+  108  rm 104.155.205.78\:88/ -rf
+  109  sudo apt install aria2
+  110  cd /etc/nginx/
+  111  cd conf.d/
+  112  ls
+  113  cd ..
+  114  cd sites-available/
+  115  sudo vim default 
+  116  sudo service nginx restart 
+  117  sudo vim default 
+  118  cd ..
+  119  ls
+  120  cd www/build/
+  121  ls
+  122  vim main.js
+  123  curl localhost:3030
+  124  curl localhost:9004
+  125  curl localhost:9001
+  126  curl localhost:9002
+  127  curl localhost:9001/scrap
+  128  curl localhost:9001/?http://dl4.uploadplus.net/TV-Series/
+  129  curl localhost:9001/?http://google.com
+  130  cd ~
+  131  mv www/ dl
+  132  ls
+  133  cd ../www/build/
+  134  vim main.js
+  135  cd /etc/nginx/
+  136  cd sites-enabled/
+  137  cd ../sites-available/
+  138  sudo vim
+  139  sudo vim default 
+  140  sudo service nginx restart 
+  141  cd ..
+  142  man htpasswd 
+  143  htpasswd 
+  144  ls
+  145  ls -al
+  146  ls -al ~
+  147  sudo mkdir n
+  148  mv ngin.zip n
+  149  sudo mv ngin.zip n
+  150  cd n
+  151  sudo unzip ngin.zip 
+  152  ls 
+  153  ls -al
+  154  sudo mv .htpasswd ..
+  155  sudo service nginx restart 
+  156  cd ../sites-available/
+  157  sudo vim default 
+  158  cd ~/code/lil-scrappy/
+  159  vim index.js 
+  160  cd ../dl/src/services/q
+  161  cd ../dl/src/services/qu
+  162  ls
+  163  vim index.js 
+  164  mkdir code
+  165  cd code/
+  166  sudo apt install nodejs npm
+  167  tmux
+  168  sudo apt install nodejs 
+  169  tmux attach
+  170  ping 5.160.139.163
+  171  ping dl8.freeupload.ir
+  172  vim /etc/resolv.conf 
+  173  vim /etc/resolvconf/resolv.conf.d/head 
+  174  ping 8.8.8.8
+  175  sudo service networking restart 
+  176  ping dl8.freeupload.ir
+  177  cd ../Downloads/
+  178  wget http://dl.my-film.org/hasan/film/Constantine.2005.1080p.BrRip-[My-Film].mp4
+  179  curl http://dl.my-film.org/hasan/film/Constantine.2005.1080p.BrRip-[My-Film].mp4
+  180  wget http://dl.my-film.org/hasan/film/Constantine.2005.1080p.BrRip-[My-Film].mp4
+  181  git clone https://github.com/vijayant123/lil-scrappy.git
+  182  cd lil-scrappy/
+  183  npm start
+  184  ls
+  185  nodemon
+  186  node index.js 
+  187  npm install
+  188  ls
+  189  npm start
+  190  cd src/
+  191  npm start
+  192  cd ..
+  193  ls
+  194  node index.js 
+  195  vim index.js 
+  196  node index.js 
+  197  cd src/
+  198  ls
+  199  vim app.js c
+  200  cd ..
+  201  node index.js 
+  202  cd ..
+  203  ls
+  204  aria2c 
+  205  git clone https://github.com/vijayant123/dl.git
+  206  cd dl
+  207  npm install
+  208  npm start
+  209  node -v
+  210  nodejs -v
+  211  npm start
+  212  tmux
+  213  curl --request POST   --url https://api.sendgrid.com/v3/mail/send   --header 'Authorization: Bearer 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'   --header 'Content-Type: application/json'   --data '{"personalizations": [{"to": [{"email": "vijayant.saini123@gmail.com"}]}],"from": {"email": "no-reply@pidown.tk"},"subject": "Pi leech: Download Started","content": [{"type": "text/plain", "value": "A download has started.\nDetails:\n$1\n$2\n$3"}]}'
+  214  cd code/minions/
+  215  ls
+  216  vim startup.sh 
+  217  cd code/
+  218  git clone https://github.com/vijayant123/minions.git
+  219  cd minions/
+  220  ls
+  221  nano aria_dl_start.sh
+  222  fg
+  223  vim aria_dl_start.sh
+  224  ls
+  225  chmod +x aria_dl_*
+  226  ls
+  227  cd ..//..
+  228  ls
+  229  cd .aria2/
+  230  ls
+  231  vim aria2.conf 
+  232  cd code/minions/
+  233  chmod +x aria_dl_start.sh 
+  234  ./aria_dl_start.sh 
+  235  ./aria_dl_start.sh aa bb cc
+  236  ls
+  237  ls -al
+  238  vim .gitignore 
+  239  ls
+  240  git add --all
+  241  git status
+  242  git commit -m "Added aria2 event handling scripts"
+  243  git config --global user.name "Vijayant Saini"
+  244  git config --global user.email "vijayant.saini123@gmail.com"
+  245  git commit -m "Added aria2 event handling scripts"
+  246  git push origin master 
+  247  tmux attach
+  248  ls
+  249  tmux
+  250  cd code/minions/
+  251  ls
+  252  vim aria_dl_bt_complete.sh 
+  253  vim aria_dl_complete.sh 
+  254  vim aria_dl_error.sh 
+  255  vim aria_dl_start.sh 
+  256  tmux attach
+  257  curl --request POST   --url https://api.sendgrid.com/v3/mail/send   --header 'Authorization: Bearer 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'   --header 'Content-Type: application/json'   --data '{"personalizations": [{"to": [{"email": "vijayant.saini123@gmail.com"}]}],"from": {"email": "no-reply@pidown.tk"},"subject":\
+  258    "Error! Pi-Leech","content": [{"type": "text/plain", "value":\
+  259    "A download has encountered an error. Check it! \n Details:\n '$1'\n '$2'\n '$3'"}]}'
+  260  tmux attach
+  261  df -h
+  262  cd Downloads/
+  263  ls -al
+  264  rm Constantine* Sarbjit.2016.Hindi.1080p.BluRay.6CH.ShAaNiG.mkv* Gotham\ \(Season\ 03\)\ LostFilm*
+  265  rm Constantine* Sarbjit.2016.Hindi.1080p.BluRay.6CH.ShAaNiG.mkv* Gotham\ \(Season\ 03\)\ LostFilm* -r
+  266  ls
+  267  ls -al
+  268  df -h
+  269  htop
+  270  cd /var/www/html/sites/default/files/
+  271  ls
+  272  sudo chmod 0777 ctools/
+  273  cd ..
+  274  ls
+  275  sudo chmod 0444 settings.php 
+  276  sudo chmod 0777 settings.php 
+  277  sudo chmod 0444 settings.php 
+  278  cd /etc/apache2/sites-available/
+  279  ls
+  280  sudo nano 000-default.conf 
+  281  sudo a2enmod rewrite
+  282  sudo service apache2 restart
+  283  sudo nano 000-default.conf 
+  284  cd ..
+  285  ls
+  286  cd conf-available/
+  287  ;s
+  288  ls
+  289  cd ..
+  290  ls
+  291  sudo nano apache2.conf 
+  292  sudo service apache2 restart
+  293  cd /var/www/
+  294  ls
+  295  ls -la
+  296  login
+  297  login sarkhat
+  298  sudo login sarkhat
+  299  sudo chmod -R 0577 html/
+  300  ls la
+  301  ls -la
+  302  cd html/
+  303  ls -la
+  304  cd ..
+  305  ls
+  306  l s-al
+  307  chgrp www-data html/
+  308  sudo chgrp www-data html/
+  309  sudo g+w html/sites/default/files/
+  310  sudo chmod g+w html/sites/default/files/
+  311  sudo chmod g+w html/sites/default/settings.php 
+  312  199.153.209
+  313  sudo apt-get install php-mbstring
+  314  sudo phpenmod mbstring
+  315  sudo apt install php-mysql
+  316  sudo phpenmod mysql
+  317  sudo apt install php7.0-mysql
+  318  cd /etc/php/7.0/
+  319  ls
+  320  ls-la
+  321  cd apache2/
+  322  ls
+  323  sudo nano php.ini 
+  324  sudo service apache2 restart
+  325  cd /var/www/html/profiles/sevenmag_profile/
+  326  ;s
+  327  ls
+  328  ls -al
+  329  nano sevenmag_profile.profile 
+  330  vim sevenmag_profile.profile 
+  331  ls
+  332  sudo vim mysql.php
+  333  vim sevenmag_profile.profile 
+  334  sudo vim sevenmag_profile.profile 
+  335  ls
+  336  ls -al
+  337  chown sarkhar mysql.php 
+  338  chown sarkhat mysql.php 
+  339  sudo chown sarkhat mysql.php 
+  340  sudo chown sarkhat:www-data mysql.php sevenmag_profile.profile 
+  341  ls -la
+  342  cd /var/log/apache2/
+  343  ls
+  344  vim error.log 
+  345  cd -
+  346  cd /etc/php/7.0/
+  347  ls
+  348  cd apache2/
+  349  ls
+  350  sudo nano php.ini 
+  351  sudo service apache2 restart
+  352  sudo nano php.ini 
+  353  sudo service apache2 restart
+  354  sudo nano php.ini 
+  355  sudo service apache2 restart
+  356  sudo nano php.ini 
+  357  sudo service apache2 restart
+  358  cd -
+  359  cd /var/log/apache2/
+  360  vim error.log 
+  361  cd -
+  362  sudo nano apache2/php.ini 
+  363  sudo service apache2 restart
+  364  cd -
+  365  vim error.log 
+  366  ls
+  367  vim error.log 
+  368  sudo apt-get install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-mbstring php7.0-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0
+  369  sudo add-apt-repository ppa:ondrej/php
+  370  sudo apt update
+  371  sudo apt-get install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-mbstring php7.0-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0
+  372  sudo a2dismod php7.0 && sudo a2enmod php5.6 && sudo service apache2 restart
+  373  apt-get install php5-gd
+  374  sudo apt-get install php5-gd
+  375  sudo apt-get install php5.6-gd
+  376  sudo apt-get install php5.6-dom
+  377  sudo apt-get install php5.6-simplexml
+  378  sudo service apache2 restart
+  379  ls
+  380  cd /var/www/html/
+  381  ls
+  382  htop
+  383  cd /etc/nginx/conf.d
+  384  ls
+  385  cd ..
+  386  ls
+  387  cd sites-available/
+  388  ls
+  389  vim default 
+  390  service nginx restart
+  391  sudo service nginx restart
+  392  login
+  393  login ubuntu
+  394  ls
+  395  whoami
+  396  sudo service nginx restart
+  397  vim /etc/hostname 
+  398  vim /etc/hosts
+  399  tmux attach
+  400  apt install apache2
+  401  sudo apt install apache2
+  402  sudo service nginx restart
+  403  sudo service nginx status
+  404  sudo service nginx stop
+  405  sudo service nginx start
+  406  sudo -i
+  407  vim default
+  408  cd ..
+  409  ls
+  410  vim nginx.conf 
+  411  sudo -i
+  412  ;s
+  413  l
+  414  cd sites-enabled/
+  415  ls
+  416  vim default 
+  417  ls -al
+  418  vim default
+  419  sudo service nginx restart
+  420  sudo service nginx status
+  421  cd ~/.ssh/
+  422  ls
+  423  ls a-la
+  424  ls -la
+  425  cd ..
+  426  sudo apt install apache2
+  427  sudo apt-get install mysql-server
+  428  sudo mysql_secure_installation
+  429  sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+  430  sudo nano /etc/apache2/mods-enabled/dir.conf
+  431  sudo apt-get install phpmyadmin apache2-utils
+  432  sudo service apache2 restart
+  433  ls
+  434  sudo apt-get install pure-ftpd
+  435  sudo adduser sarkhat --home /var/www/ --ingroup www-data
+  436  curl localhost:22
+  437  curl localhost:21
+  438  ifconfig
+  439  cd /etc/pure-ftpd/
+  440  ls
+  441  cd conf/
+  442  ls
+  443  cd ..
+  444  ls -al
+  445  ls
+  446  sudo service pure-ftpd status
+  447  cd ../init.d/
+  448  ls
+  449  ls -al
+  450  sudo vim pure-ftpd 
+  451  sudo service pure-ftpd stop
+  452  pure-ftpd 
+  453  sudo pure-ftpd 
+  454  tmux attach
+  455  cd /var/www/html/
+  456  ls
+  457  cd sites/
+  458  ls -al
+  459  groups sarkhat
+  460  cd default/files/
+  461  cd ..
+  462  ls -al
+  463  chown www-data -R files/
+  464  sudo chown www-data -R files/
+  465  cd /var/www/html/sites/
+  466  ls -al
+  467  ls -al default/
+  468  sudo chown www-data -R default/
+  469  cd ..
+  470  sudo chown www-data -R sites/
+  471  sudo chown sarkhat -R sites/
+  472  cd /var/www/
+  473  cd html/sites/
+  474  cd ..
+  475  sudo chown www-data -R sites/
+  476  cd /var/www/
+  477  cd html/
+  478  sudo chown sarkhat -R sites/
+  479  sudo chown www-data -R sites/
+  480  sudo chown sarkhat -R sites/
+  481  sudo chown www-data -R sites/
+  482  cd /var/www/html/
+  483  sudo chown www-data -R sites/
+  484  sudo chown sarkhat -R sites/
+  485  id sarkhat
+  486  id www-data
+  487  chgrp www-data sites/
+  488  sudo chgrp www-data sites/
+  489  chmod g+rwx sites/
+  490  sudo chmod g+rwx sites/
+  491  ls -al
+  492  sudo chmod 777 sites/
+  493  sudo chown www-data -R sites/
+  494  sudo chmod 777 -R sites/
+  495  cd /var/www/html/
+  496  ls
+  497  cd sites/all/modules/
+  498  ls
+  499  rm -rf weather/
+  500  sudo rm -rf weather/
+  501  ls
+  502  cd /var/log/apache2/
+  503  nano error.log
+  504  cd
+  505  clear
+  506  cd /etc/php/
+  507  php -v
+  508  where php
+  509  type php
+  510  cd /usr/bin
+  511  ls
+  512  ls -al | less
+  513  cd /etc/alternatives/
+  514  ls -la
+  515  ls -la  | less
+  516  cd /etc/php/7.0/apache2/conf.d/
+  517  ls
+  518  cd ..
+  519  ls
+  520  nano php.ini
+  521  sudo nano php.ini
+  522  sudo service apache2 restart 
+  523  ls
+  524  sudo rm -rf weather/
+  525  cd /var/log/apache2
+  526  nano error.log
+  527  cd /etc/php/5.6/apache2/
+  528  ls
+  529  sudo nano php.ini 
+  530  sudo service apache2 restart 
+  531  cd -
+  532  cd /var/www/html/sites/all/modules/
+  533  sudo rm -rf weather/
+  534  sudo chmod 0777 weather/
+  535  sudo chmod 0777 weather/ -R
+  536  cd ~
+  537  ls
+  538  cd Downloads/
+  539  ls -la
+  540  rm Nose\ Pin-\(Mr-Jatt.com\).mp3 Rustom.2016.Hindi.1080p.BluRay.6CH.ShAaNiG.mkv  Madaari.2016.Hindi.1080p.BluRay.6CH.ShAaNiG.mkv 686a88992efb5126c5352fef68b3123ea78ecc4d.torrent Moana\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK/ -r
+  541  ls -al
+  542  rm 30\ Rock\ Complete\ Collection\ 720p\ WEB-DL\ x264-mRs.aria2 
+  543  ls
+  544  cd /var/log/apache2/
+  545  nano error.log
+  546  cd /var/www/html/includes/
+  547  ls
+  548  sudo chmod 0777 common.inc 
+  549  cd /var/www/html/sites/all/modules/
+  550  rm -rf event_calendar/
+  551  sudo rm -rf event_calendar/
+  552  ls
+  553  sudo rm -rf event-calendar/
+  554  sudo rm -rf event_calendar/
+  555  cd /var/log/apache2
+  556  nano error.log
+  557  sudo apt-get install php5-curl
+  558  sudo apt-get install php5.6-curl
+  559  sudo service apache2 restart
+  560  cd /var/www/html/
+  561  sudo chown www-data -R sites/
+  562  cd .aria2/
+  563  ls
+  564  nano aria2.conf 
+  565  tmux attach
+  566  df -h
+  567  cd ../Downloads/
+  568  ls -la
+  569  df -h .
+  570  du .
+  571  du . -h
+  572  ls
+  573  cd code/
+  574  ls
+  575  npm
+  576  cd code/
+  577  ls
+  578  git https://github.com/vijayant123/Tuition-App-Server.git
+  579  git clone https://github.com/vijayant123/Tuition-App-Server.git
+  580  mongo
+  581  sudo npm install -g express-generator
+  582  cd Tuition-App-Server/
+  583  express --help
+  584  express --git 
+  585  npm install
+  586  npm i --save mongoose
+  587  ls -al
+  588  vim
+  589  git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+  590  homeshick 
+  591  homeshick  clone https://github.com/vijayant123/dotfiles.git
+  592  homeshick list
+  593  vim
+  594  vim .bashr
+  595  vim .bashrc 
+  596  # from sh and its derivates (bash, zsh etc.) 
+  597  printf '\nsource "$HOME/.homesick/repos/homeshick/homeshick.sh"' >> $HOME/.bashrc
+  598  bash
+  599  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  600  vim
+  601  bash
+  602  homeshick --help
+  603  homeshick link dotfiles
+  604  vim
+  605  cd code/Tuition-App-Server/
+  606  ls
+  607  vim
+  608  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+  609  echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+  610  sudo apt update
+  611  sudo apt-get install -y mongodb-org
+  612  sudo nano /etc/systemd/system/mongodb.service
+  613  sudo systemctl start mongodb
+  614  sudo systemctl status mongodb
+  615  `xsudo systemctl enable mongodb
+  616  sudo systemctl enable mongodb
+  617  sudo systemctl enable mongodb
+  618  sudo systemctl enable mongodb
+  619  mongo
+  620  cd code/Tuition-App-Server/
+  621  ls
+  622  vim
+  623  cd code/Tuition-App-Server/
+  624  ls
+  625  nodemon
+  626  git add --all
+  627  git status
+  628  git commit -m "init"
+  629  git push origin master 
+  630  du -h
+  631  df -h
+  632  cd Downloads/
+  633  ls
+  634  du -h
+  635  rm 30\ Rock\ Complete\ Collection\ 720p\ WEB-DL\ x264-mRs/ -r
+  636  df -h
+  637  du -h
+  638  rm -r The\ West\ Wing\ Season\ 1\ to\ 7\ 720p/The\ West\ Wing\ Season\ 1\ 720p/
+  639  du -h
+  640  df -h
+  641  man pure-pw
+  642  ls
+  643  ls -al
+  644  pure-pw show
+  645  pure-pw show sarkhat
+  646  ls /etc
+  647  find / -name pureftpd.passwd
+  648  sudo find / -name pureftpd.passwd
+  649  echo ~sarkhat
+  650  LS
+  651  ls
+  652  cd Downloads/
+  653  mysqldump
+  654  mysqldump sarkhat
+  655  mysqldump sarkhat -u root -p
+  656  mysqldump sarkhat -u root -p > sarkhat-backup-25032017.sql
+  657  ls -al
+  658  cd /var/www/html/
+  659  cd ..
+  660  sudo mkdir html_newag
+  661  sudo mkdir html_sheba
+  662  sudo mkdir html_hubtv
+  663  sudo cp html/* html_newag/
+  664  sudo cp html/* html_newag/ -r
+  665  ls -la
+  666  cd html_hubtv/
+  667  ls
+  668  ls -al
+  669  cd ..
+  670  ls
+  671  c html
+  672  cd html
+  673  ls
+  674  sudo zip -r /home/vijayant_saini123/Downloads/sarkhat_wwwbackup_25032017.zip .
+  675  sudo apt install zip
+  676  sudo zip -r /home/vijayant_saini123/Downloads/sarkhat_wwwbackup_25032017.zip .
+  677  man cp
+  678  sudo cp * ../html_newag/
+  679  sudo cp * ../html_newag/ -r
+  680  ls ../html_newag/
+  681  cd /etc/pure-ftpd/
+  682  vim
+  683  pure-pw show sarkhat
+  684  sudo pure-pw show sarkhat
+  685  pure-pw usermod sarkhat -d /var/www/
+  686  pure-pw usermod www-data -d /var/www/
+  687  sudo service pure-ftpd status
+  688  sudo service ftp* status
+  689  ftp pidown.tk 
+  690  tmux attach
+  691  cd /var/www/html_newag/sites/all/
+  692  ls
+  693  cd ../default/
+  694  ls
+  695  vim settings.php 
+  696  cd /etc/apache2/
+  697  sudo  vim
+  698  cd sites-available/
+  699  ls
+  700  ls -al
+  701  cp 000-default.conf 001-default.conf 002-default.conf  003-default.conf 
+  702  ls 
+  703  sudo cp 000-default.conf 001.conf
+  704  sudo cp 000-default.conf 002.conf
+  705  sudo cp 000-default.conf 003.conf
+  706  sudo vim
+  707  ls
+  708  sudo a2enconf 001.conf
+  709  sudo a2ensite 001.conf 
+  710  sudo a2ensite 002.conf 
+  711  sudo a2ensite 003.conf 
+  712  sudo service apache2 reload
+  713  cd /var/www/html_newag/
+  714  ls -al
+  715  ls -al ../html
+  716  sudo chown www-data:www-data -r
+  717  sudo chown www-data:www-data -R
+  718  sudo chown www-data:www-data . -R
+  719  ls -al
+  720  sudo chmod 0777 sites/ -r
+  721  sudo chmod sites/ -r 0777
+  722  sudo chmod -r 0777 sites/
+  723  sudo chmod -R 0777 sites/
+  724  ls -al
+  725  sudo cp * ../html_sheba/
+  726  sudo cp * ../html_sheba/ -r
+  727  cd ../html
+  728  ls -al
+  729  cp .htaccess ../html_newag/
+  730  sudo cp .htaccess ../html_newag/
+  731  sudo cp .htaccess ../html_sheba/
+  732  sudo cp .htaccess ../html_hubtv/
+  733  sudo cd * ../html_hubtv/
+  734  sudo cp * ../html_hubtv/
+  735  sudo cp * ../html_hubtv/ -r
+  736  cd ..
+  737  cd html_sheba/
+  738  sudo vim
+  739  ls -al
+  740  sudo chown www-data:www-data -R .
+  741  ls -al
+  742  sudo chmod -R 0777 sites/
+  743  ls -al
+  744  cd ..
+  745  cd html_hubtv/
+  746  sudo vim
+  747  sudo chown www-data:www-data -R .
+  748  sudo chmod -R 0777 sites/
+  749  cd /etc/apache2/
+  750  vim
+  751  cd code/lil-scrappy/
+  752  ls
+  753  npm start
+  754  cd src/
+  755  ls
+  756  npm start
+  757  cd ..
+  758  node index.js 
+  759  pure-ftpd -P 104.199.153.209 -p 5000:6000
+  760  sudo pure-ftpd -P 104.199.153.209 -p 5000:6000
+  761  cd code/dl
+  762  npm start
+  763  aria2c 
+  764  ls
+  765  tmux
+  766  cd /var/www/html/sites/all/themes/sevenmag/tpl/
+  767  ;s
+  768  ls
+  769  sudo chmod 0777 *new12*
+  770  df -h
+  771  cd Downloads/
+  772  ls
+  773  cd The\ West\ Wing\ Season\ 1\ to\ 7\ 720p/The\ West\ Wing\ Season\ 1\ 720p/
+  774  ls
+  775  cd ..
+  776  ls
+  777  rm The\ West\ Wing\ Season\ 1\ 720p/*-rf
+  778  rm The\ West\ Wing\ Season\ 1\ 720p/* -rf
+  779  cd /var/log/apache2/
+  780  ls
+  781  vim error.log
+  782  cd /var/log/apache2/
+  783  vim error.log
+  784  cd /var/log/apache2/
+  785  vim error.log
+  786  sudo service mysql status
+  787  sudo service mysql start
+  788  sudo systemctl status mysql.service 
+  789  sudo journalctl -xe
+  790  mysqld --help
+  791  mysqld -verbose --help
+  792  sudo service mysql restart
+  793  cd /var/log/mysql/
+  794  ls
+  795  vim error.log
+  796  df -h
+  797  cd ~/Downloads/
+  798  ls
+  799  cd The\ West\ Wing\
+  800  cd The\ West\ Wing\ Season\ 1\ to\ 7\ 720p/
+  801  ls
+  802  cd ..
+  803  ls
+  804  rm Bahubaali.2015.Dual.Audio.720p.DVDSCR.x264.ShAaNiG.mkv 
+  805  df -h
+  806  rm The\ Fast\ and\ the\ Furious\ \(2001\)\ \[1080p\]/* -rf
+  807  ls
+  808  df -h
+  809  sudo service mysqld start 
+  810  sudo service mysql start
+  811  ls
+  812  mkdir
+  813  mkdir cod4
+  814  cd cod
+  815  cd cod4/
+  816  wget -r -np -N http://games.buho.ch/COD4/ &
+  817  wget -r -np -N http://games.buho.ch/COD4/ 
+  818  ls
+  819  tmux
+  820  ps wget
+  821  killall wget
+  822  ps wget
+  823  sudo killall wget
+  824  killall wg
+  825  tmux
+  826  cd Do
+  827  cd Downloads
+  828  ls
+  829  rm -rf Th
+  830  rm -rf The West Wing*
+  831  ls
+  832  ls -al
+  833  rm 
+  834  rm -rf ./Season/ 4/*
+  835  ls -al
+  836  rm sarkh
+  837  rm sarkhat-backup-25032017.sql
+  838  rm The\ West\ Wing\ Season\ 1\ to\ 7\ 720p* -rf
+  839  df -h
+  840  cd ../cod4/games.buho.ch/COD4/
+  841  ls -al
+  842  wget https://github.com/callofduty4x/CoD4x_Server/archive/v17.5.2.zip
+  843  unzip v17.5.2.zip 
+  844  ld
+  845  ls
+  846  cd CoD4x_Server-17.5.2/
+  847  ls
+  848  cd src/
+  849  cd tomcrypt/
+  850  ./compile_linux.sh
+  851  cd ../src/mbedtls
+  852  cd ../mbedtls
+  853  make
+  854  make linux32
+  855  cd ../../
+  856  make linux32
+  857  cd bin/
+  858  ls
+  859  cp cod4x18_dedrun ../../
+  860  cd ../../
+  861  ls
+  862  ./cod4x18_dedrun 
+  863  quit
+  864  l
+  865  ./cod4x18_dedrun +map mp_killhouse
+  866  cd zone/
+  867  ls
+  868  mdkir english
+  869  mkdir english
+  870  cd english/
+  871  ls
+  872  wget http://games.buho.ch/COD4/zone/english/code_post_gfx_mp.ff
+  873  cd -
+  874  c ..
+  875  cd ..
+  876  ./cod4x18_dedrun +map mp_killhouse
+  877  htop
+  878  tmux attach
+  879  bmon
+  880  bmon
+  881  ./cod4x18_dedrun +map mp_killhouse
+  882  cd games.buho.ch/COD4/
+  883  ./cod4x18_dedrun +map mp_killhouse
+  884  tmux attach
+  885  cd cod4/games.buho.ch/COD4/
+  886  ls
+  887  tmux 
+  888  tmux attach
+  889  ./cod4x18_dedrun +map mp_killhouse
+  890  seta g_logsync "2"         // 0=no log, 1=buffered, 2=continuous, 3=append
+  891  set logfile "1" 
+  892  ./cod4x18_dedrun +map mp_backlot
+  893  ls
+  894  cd main
+  895  ls
+  896  cd ..
+  897  tmux attach
+  898  ls
+  899  bash
+  900  =http://104.199.153.209/ttp://104.199.153.209/
+  901  `cx`c`htop
+  902  htop
+  903  kill
+  904  `cx`c`htop
+  905  htop
+  906  kill
+  907  vim /var/log/apache2/access.log
+  908  cd cod4/
+  909  ls
+  910  vim wget-log
+  911  vim wget-log1
+  912  wget https://cod4x.me/downloads/cod4x_server-linux.zip
+  913  unzip cod4x_server-linux.zip 
+  914  ls
+  915  ls -al
+  916  cp cod4x_server-linux.zip games.buho.ch/COD4/
+  917  cd g
+  918  wget https://cod4x.me/downloads/cod4x_server-linux.zip
+  919  unzip cod4x_server-linux.zip 
+  920  ls
+  921  rm cod4x18_dedrun lib* main/ -rf steam*
+  922  ls
+  923  cp cod4x_server-linux.zip games.buho.ch/COD4/
+  924  cd games.buho.ch/COD4/
+  925  ls
+  926  unzip cod4x_server-linux.zip 
+  927  ls -al
+  928  chmod  cod4x18_dedrun +x
+  929  chmod  +x cod4x18_dedrun
+  930  ./cod4x18_dedrun +map mp_killhouse
+  931  ls -al
+  932  ./cod4x18_dedrun 
+  933  sudo apt install nasm paxctl build-essential
+  934  sudo dpkg --add-architecture i386
+  935  sudo apt-get update
+  936  sudo apt-get install nasm:i386 build-essential gcc-multilib g++-multilib
+  937  ls
+  938  bmon
+  939  sudo apt install bmon
+  940  bmon
+  941  ./cod4x18_dedrun +map mp_crash
+  942  bmon
+  943  cd cod4
+  944  wget -r -np -N http://games.buho.ch/COD4/ &
+  945  wget -r -np -N http://games.buho.ch/COD4/ 
+  946  ls
+  947  rm --help
+  948  rm -rf *
+  949  ls
+  950  wget -r -np -N http://games.buho.ch/COD4/ & wget -r -np -N http://games.buho.ch/COD4/ & wget -r -np -N http://games.buho.ch/COD4/ & wget -r -np -N http://games.buho.ch/COD4/ 
+  951  make linux322vmake linux323http://games.buho.ch/COD4/zone/english/bhttp://games.buho.ch/COD4/zone/englishnbnmbnhttp://games.buho.ch/COD4/zone/english/nhttp://games.buho.ch/COD4/zone/englishn/
+  952  cd cod4/games.buho.ch/COD4/
+  953  ls
+  954  cd ..
+  955  df -h
+  956  df -h .
+  957  du -f
+  958  du -h
+  959  du -h COD4/
+  960  ls
+  961  du -hs
+  962  du -hs COD4/
+  963  du -hs
+  964  cd COD4/main/video/
+  965  cd ..
+  966  ls
+  967  ls -al
+  968  cdnn
+  969  cd cod4x-server-B3-configs/
+  970  ls
+  971  ln -s main_shared/ ../COD4/main_shared
+  972  ln -s main_shared/ ../COD4/main_shared/
+  973  history > history_for_print.txt
+  974  rm ../COD4/main_shared 
+  975  mkdir ../COD4/main_shared 
+  976  ln -s main_shared/ ../COD4/main_shared/
+  977  ln -s main_shared ../COD4/main_shared/
+  978  rm ../COD4/main_shared 
+  979  rm ../COD4/main_shared -r
+  980  mkdir ../COD4/main_shared 
+  981  ln -s main_shared ../COD4/main_shared/
+  982  ls main_shared/
+  983  ln -s main_shared/* ../COD4/main_shared/
+  984  rm ../COD4/main_shared -r
+  985  mkdir ../COD4/main_shared 
+  986  ln -s main_shared/* ../COD4/main_shared/
+  987  rm ../COD4/main_shared -r
+  988  mkdir ../COD4/main_shared 
+  989  cp -r main_shared ../COD4/main_shared/
+  990  rm ../COD4/main_shared -r
+  991  cp -r main_shared ../COD4/
+  992  cp -r server.cfg maps.cfg main_shared/ ../COD4/
+  993  b3_run -config /home/vijayant_saini123/cod4/cod4x-server-B3-configs/b3.xml -r
+  994  b3_run --config /home/vijayant_saini123/cod4/cod4x-server-B3-configs/b3.xml -r
+  995  history > history_for_print.txt

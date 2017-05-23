@@ -1,0 +1,18 @@
+170523 07:11:08 BOT      'www.bigbrotherbot.net (b3) v1.10.10 [AngryBiscuit]'
+170523 07:11:08 BOT      'Python: 2.7.12 (default, Nov 19 2016, 06:48:10) [GCC 5.4.0 20160609]'
+170523 07:11:08 BOT      'Default encoding: ascii'
+170523 07:11:08 BOT      'Starting Cod4Parser v1.5.1 for server 127.0.0.1:28960 (autorestart = ON)'
+170523 07:11:08 BOT      '--------------------------------------------'
+170523 07:11:08 BOT      'Connecting to MySQL database: mysql://b3:******@localhost:3306/DB_b3...'
+170523 07:11:08 ERROR    'Database connection failed: working in remote mode: (1045, u"Access denied for user \'b3\'@\'localhost\' (using password: NO)") - [(\'/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/storage/mysql.py\', 287, \'connect\', \'charset="utf8")\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/__init__.py\', 90, \'Connect\', \'return Connection(*args, **kwargs)\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 706, \'__init__\', \'self.connect()\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 932, \'connect\', \'self._request_authentication()\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 1152, \'_request_authentication\', \'auth_packet = self._read_packet()\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 1014, \'_read_packet\', \'packet.check_error()\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/connections.py\', 393, \'check_error\', \'err.raise_mysql_exception(self._data)\'), (\'/usr/local/lib/python2.7/dist-packages/PyMySQL-0.7.11-py2.7.egg/pymysql/err.py\', 107, \'raise_mysql_exception\', \'raise errorclass(errno, errval)\')]'
+170523 07:11:08 BOT      'Game log is: /home/vijayant_saini123/cod4/main/games_mp.log'
+170523 07:11:08 BOT      u'Starting bot reading file: /home/vijayant_saini123/cod4/main/games_mp.log'
+170523 07:11:08 CRITICAL u'Cannot read file: /home/vijayant_saini123/cod4/main/games_mp.log'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/parser.py", line 386, in __init__
+    logsize = b3.functions.getBytes(self.config.get('b3', 'logsize'))
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/config.py", line 528, in get
+    return self._config_parser.get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/b3-1.10.10-py2.7.egg/b3/config.py", line 211, in get
+    raise ConfigParser.NoOptionError(setting, section)
+NoOptionError: No option 'logsize' in section: 'b3'
