@@ -12,8 +12,11 @@
     <set name="time_zone">IST</set>
     <!--The amount of logging you want in your b3.log file. Lower numbers log more information.-->
     <set name="log_level">9</set>
+	
+	
+	
     <!--Name and path of the logfile the bot will generate.<br/>@conf : the folder containing this config file-->
-    <set name="logfile">@conf/b3.log</set>
+    <set name="logfile">/home/vijayant_saini123/.callofduty4/b3.log</set>
     <!--Your game parser.-->
     <set name="parser">cod4</set>
     <!--Your database info: [mysql]://[db-user]:[db-password]@[db-server[:port]]/[db-name]-->
@@ -35,7 +38,7 @@
     <!--Select on if you use Punkbuster, otherwise select off.-->
     <set name="punkbuster">off</set>
     <!--Select your game log file location.-->
-    <set name="game_log">/home/vijayant_saini123/cod4/main/games_mp.log</set>
+    <set name="game_log">/home/vijayant_saini123/.callofduty4/main/games_mp.log</set>
   </settings>
   <settings name="autodoc">
     <!--Select autodoc file type you want to use.-->
@@ -73,17 +76,17 @@
   </settings>
   <plugins>
     <!--Warns players who spams the in game chat-->
-    <plugin name="spamcontrol" config="@conf/plugin_spamcontrol.xml"/>
+    <!-- plugin name="spamcontrol" config="@conf/plugin_spamcontrol.xml"/>
     <!--This plugin provides main B3 functionalities.-->
-    <plugin name="admin" config="@conf/plugin_admin.xml"/>
+    <plugin name="admin" config="@conf/conf/plugin_admin.xml"/>
     <!--Notifies players with high ping-->
-    <plugin name="pingwatch" config="@conf/plugin_pingwatch.xml"/>
+    <!-- plugin name="pingwatch" config="@conf/plugin_pingwatch.xml"/>
     <!--Manages your server messages-->
-    <plugin name="adv" config="@conf/plugin_adv.xml"/>
+    <!-- plugin name="adv" config="@conf/plugin_adv.xml"/>
     <!--Welcomes players-->
-    <plugin name="welcome" config="@conf/plugin_welcome.xml"/>
+    <!--  plugin name="welcome" config="@conf/plugin_welcome.xml"/>
 	
 	<plugin name="turbohost" config="@b3/extplugins/conf/turbohost.ini" />
-	
+	-->
   </plugins>
 </configuration>
