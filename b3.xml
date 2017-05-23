@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created by BigBrotherBot Config File Generator at http://config.bigbrotherbot.net (24 Dec 2016 - Sat 14:53:46 CET)-->
+<configuration>
+  <settings name="b3">
+    <!--Name of the bot.-->
+    <set name="bot_name">b3</set>
+    <!--Ingame messages are prefixed with this code, you can use colorcodes.-->
+    <set name="bot_prefix">^0(^2D B^0)^7:</set>
+    <!--You can arrange the time format as specified in python's time directives.-->
+    <set name="time_format">%I:%M%p %Z %m/%d/%y</set>
+    <!--Set your server's timezone so all timebased lookups will show the proper time.-->
+    <set name="time_zone">IST</set>
+    <!--The amount of logging you want in your b3.log file. Lower numbers log more information.-->
+    <set name="log_level">9</set>
+    <!--Name and path of the logfile the bot will generate.<br/>@conf : the folder containing this config file-->
+    <set name="logfile">@conf/b3.log</set>
+    <!--Your game parser.-->
+    <set name="parser">cod4</set>
+    <!--Your database info: [mysql]://[db-user]:[db-password]@[db-server[:port]]/[db-name]-->
+    <set name="database">mysql://b3@localhost/DB_b3</set>
+  </settings>
+  <settings name="server">
+    <!--Enter your rcon password.-->
+    <set name="rcon_password">password</set>
+    <!--Enter your game server's rcon (admin) port.-->
+    <set name="port">28960</set>
+    <!--Enter your game server's public IP.-->
+    <set name="public_ip">104.199.153.209</set>
+    <!--Enter your game server's rcon IP.-->
+    <set name="rcon_ip">127.0.0.1</set>
+    <!--Delay between each log reading. Set a higher value to consume less disk ressources or bandwidth if you remotely connect (ftp or http remote log access)-->
+    <set name="delay">0.33</set>
+    <!--Number of lines to process per second. Set a lower value to consume less CPU ressources-->
+    <set name="lines_per_second">50</set>
+    <!--Select on if you use Punkbuster, otherwise select off.-->
+    <set name="punkbuster">off</set>
+    <!--Select your game log file location.-->
+    <set name="game_log">/home/vijayant_saini123/cod4/main/games_mp.log</set>
+  </settings>
+  <settings name="autodoc">
+    <!--Select autodoc file type you want to use.-->
+    <set name="type">html</set>
+    <!--If you want to exclude commands reserved for higher levels, you may enter a lower value here.-->
+    <set name="maxlevel">100</set>
+    <!--Select the location where you want to generate your command documentation file.-->
+    <set name="destination">@conf/b3_doc.html</set>
+  </settings>
+  <settings name="update">
+    <!--B3 checks if a new version is available at startup. Choose here what channel you want to check against.-->
+    <set name="channel">stable</set>
+  </settings>
+  <settings name="messages">
+    <!--The message that will be displayed when a player is kicked by a mod/admin.-->
+    <set name="kicked_by">$clientname^7 was kicked by $adminname^7 $reason</set>
+    <!--The message that will be displayed when a player is kicked by B3.-->
+    <set name="kicked">$clientname^7 was kicked $reason</set>
+    <!--The message that will be displayed when a player is banned by a mod/admin.-->
+    <set name="banned_by">$clientname^7 was banned by $adminname^7 $reason</set>
+    <!--The message that will be displayed when a player is kicked by a B3.-->
+    <set name="banned">$clientname^7 was banned $reason</set>
+    <!--The message that will be displayed when a player is temp banned by a mod/admin.-->
+    <set name="temp_banned_by">$clientname^7 was temp banned by $adminname^7 for $banduration^7 $reason</set>
+    <!--The message that will be displayed when a player is temp banned by B3.-->
+    <set name="temp_banned">$clientname^7 was temp banned for $banduration^7 $reason</set>
+    <!--The message that will be displayed when a player is unbanned by a mod/admin.-->
+    <set name="unbanned_by">$clientname^7 was un-banned by $adminname^7 $reason</set>
+    <!--The message that will be displayed when a player is unbanned by B3-->
+    <set name="unbanned">$clientname^7 was un-banned $reason</set>
+  </settings>
+  <settings name="plugins">
+    <!--Enter here the path to the config folder for your external plugins.-->
+    <set name="external_dir">@b3/extplugins</set>
+  </settings>
+  <plugins>
+    <!--Warns players who spams the in game chat-->
+    <plugin name="spamcontrol" config="@conf/plugin_spamcontrol.xml"/>
+    <!--This plugin provides main B3 functionalities.-->
+    <plugin name="admin" config="@conf/plugin_admin.xml"/>
+    <!--Notifies players with high ping-->
+    <plugin name="pingwatch" config="@conf/plugin_pingwatch.xml"/>
+    <!--Manages your server messages-->
+    <plugin name="adv" config="@conf/plugin_adv.xml"/>
+    <!--Welcomes players-->
+    <plugin name="welcome" config="@conf/plugin_welcome.xml"/>
+	
+	<plugin name="turbohost" config="@b3/extplugins/conf/turbohost.ini" />
+	
+  </plugins>
+</configuration>

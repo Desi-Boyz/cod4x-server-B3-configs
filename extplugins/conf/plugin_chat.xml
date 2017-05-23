@@ -1,0 +1,77 @@
+<configuration plugin="chat">
+<!--
+|    This plugin will let the console react on certain ingame chat messages.
+|    - The triggers are handled as regular expressions.
+|    - Want to trigger on words? type (foo) as the trigger.
+|    - The triggers are case insensitive.
+|    - You can include multiple <reaction>'s. The bot will randomly pick one.
+|    - This plugin will add a white space before and after the whole sentence
+|    
+|    Some basic regular expression stuff:
+|    ^  = start of line
+|    $  = end of line
+|    \s = whitespace
+|    .  = match any character (1 charachter in length)
+|    *   Preceding expression occurs zero or more times  
+|    ?   Preceding expression occurs zero or one times  
+|    +   Preceding expression occurs one or more times  
+|    [] = match any character inside ([abc] match a or b or c)
+|    () = match the group of characters inside ( (hello) matches 'foohellofoo' and 'foo hello foo' and 'hello' )
+|    |  = an 'or' sign. ( (hi)|(hello) matches '*Hi*' and 'Hello' but not 'Hoi')
+|
+|
+|    Possible variables:
+|      - $player
+|      - $time
+|      - $nextmap
+-->
+	<messages>
+		<message>
+			<comment>If someone types 'help' without the !</comment>
+			<trigger>^( help )$</trigger>
+			<reaction>Type ^3!help^7 to see all the options ^3$player</reaction>
+		</message>
+		<message>
+			<comment></comment>
+			<trigger>(cheat|hack)</trigger>
+			<reaction>Cheaters are the biggest dumbass losers ever!</reaction>
+			<reaction>We do NOT like cheaters... hope they make mistakes real soon</reaction>
+			<reaction>A good cheater is a dead cheater!</reaction>
+			<reaction>Cheaters are like cockroaches, they should be squashed!</reaction>
+		</message>
+		<message>
+			<comment>If someone types 'name foo', console will react and try to help</comment>
+			<trigger>^( name)</trigger>
+			<reaction>You should change your name in your multiplayer options ^3$player</reaction>
+		</message>
+	<!--	<message>
+			<comment>Hi reaction</comment>
+			<trigger>\sh[eoa]*[ij]\s|\sh[ea]+l+o+\s|\sheej?\s|\se+j\s</trigger>
+			<reaction>Hi there ^2$player!</reaction>
+			<reaction>Yo Yo ^2$player!</reaction>
+			<reaction>Yo ^2$player!</reaction>
+			<reaction>Thats enough ^2$player!</reaction>
+			<reaction>Yeah, that's enough ^2$player!</reaction>
+			<reaction>Namaste ^2$player!</reaction>
+			<reaction>Ram Ram ^2$player!</reaction>
+		</message>
+	
+	-->
+
+		<message>
+			<comment>nextmap</comment>
+			<trigger>( (nextmap)|(nm) |(map) )</trigger>
+			<reaction>Next map is ^3$nextmap^7.</reaction>
+		</message>
+
+	<!--	<message>
+		      <comment>gali</comment>
+      			<trigger>( bc|fuck|chod|bkl|mmll|chut|choot|gand|gaand|bhosd|bhosad|lode|loda|pussy|pusy|vagina|penis|asshole)</trigger>
+      <reaction>^2GALI MAT DE, GALI MAT DE, TERI MAA DEKH LEGI!</reaction>
+      <reaction>^3GALI MAT DE, GALI MAT DE, TERI MAA DEKH LEGI!</reaction>
+      <reaction>^4GALI MAT DE, GALI MAT DE, TERI MAA DEKH LEGI!</reaction>
+ 	   </message>
+
+-->
+	</messages>
+</configuration>
